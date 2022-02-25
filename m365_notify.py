@@ -6,7 +6,7 @@ TENANT_ID = '' # Tenant UUID
 CLIENT_ID = '' # Client ID (from Azure AD App Registration)
 CHANNELS = [
     # List of links to Teams channels
-    'https://teams.microsoft.com/l/channel/.../General?groupId=...&tenantId=...'
+    # e.g. 'https://teams.microsoft.com/l/channel/.../General?groupId=...&tenantId=...'
 ]
 ###########################
 
