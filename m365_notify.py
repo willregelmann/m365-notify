@@ -2,11 +2,11 @@ import requests, sys, json, re, urllib, os
 
 ### Update these values ###
 CACHE_LOCATION = 'C:\ProgramData\M365_Notify'
-TENANT_ID = 'f9f579e9-6799-4478-82f5-4296706c42f6'
-CLIENT_ID = '2b6f6d9d-441c-4171-85ab-bbadd058952c'
+TENANT_ID = '' # Tenant UUID
+CLIENT_ID = '' # Client ID (from Azure AD App Registration)
 CHANNELS = [
-    'https://teams.microsoft.com/l/channel/19%3awHJYmRkTQJfwnOSgxs_3aJLy7ovqBito-6KUSXsLKCE1%40thread.tacv2/General?groupId=2967a80e-3fbe-42c0-bdfc-da79766f5d49&tenantId=f9f579e9-6799-4478-82f5-4296706c42f6',
-    'https://teams.microsoft.com/l/channel/19%3a2d2d7e9efd2944a4a49e9aa9921ae7b9%40thread.tacv2/General?groupId=fc5134d9-6744-46d4-ba68-616257dba4a6&tenantId=f9f579e9-6799-4478-82f5-4296706c42f6'
+    # List of links to Teams channels
+    'https://teams.microsoft.com/l/channel/.../General?groupId=...&tenantId=...'
 ]
 ###########################
 
